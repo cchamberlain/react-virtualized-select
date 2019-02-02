@@ -1,7 +1,7 @@
 /** @flow */
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import Select from 'react-select'
+import Select from 'react-select-legacy'
 
 // Import directly to avoid Webpack bundling the parts of react-virtualized that we are not using
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer'
